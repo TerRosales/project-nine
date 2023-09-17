@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
     <title>Project 9</title>
 </head>
 <body>
-    <!-- Main Container Fluid -->
-<div class="container-fluid main-container">
 <!-- Navbar -->
 <nav class="navbar">
     <ul class="nav-list">
@@ -20,34 +19,40 @@
     </ul>
 </nav>
 <!-- Nav Ends-->
-    <div class="row about-me">
-        <div class="col name-title">
+<!-- Main Container Fluid -->
+<div class="container-fluid main-container">
+<!-- About Me -->
+    <div class="row row-cols-1 row-cols-md-2 about-me">
+        <div class="col about-me-intro">
             <h1>Terrence <span>Rosales</span></h1>
             <p>I was born and raised in Northern Philippines. I grew where beaches are just a walk away and snow didn't exist, but we had our famous Halo-Halo and our Sago't Gulamans, they do a very good job of satiating our cold cravings. Another fact about myself is I have a very strong grasp of my artistic expressability, and I also love seeing graphical representation of all these art.</p>
         </div>
         <div class="col planetary-img-container">
-            <img src="assets/p9-material2.png" alt="simple planetary image">
+            <img class="img-fluid" src="assets/p9-material2.png" alt="simple planetary image">
         </div>
     </div>
+<!-- split -->
+<!-- About Rosy -->
     <div class="row about-rosy">
+        <div class="col rosy-img">
+            <img class="img-fluid" id="family-img" src="assets/rosy.png" alt="Picture of all my kids on a bench">
+        </div>
         <div class="col rosy-container">
             <h3>Rosy Rosales</h3>
             <p>A Woman that captured my attention ever since the day I have met her. Life has been a blessing being able to grow with someone that I be myself around with and to be with someone that has similar food language as I do. She has given three beautiful children and I cherish every single day that passes. It has a bliss knowing someone will always be there to support and to life you up, with or without the challenges.</p>
         </div>
-        <div class="col rosy-img">
-            <img class="kids-intro-img" id="kids-group-img" src="assets/rosy.png" alt="Picture of all my kids on a bench">
-        </div>
     </div>
-    <div class="row about-kids">
+<!-- split  -->
+    <div class="row kids-container">
+        <div class="col kids-intro-img">
+            <img  id="kids-group-img" src="assets/triple-trouble2.png" alt="Picture of all my kids on a bench">
+        </div>
         <div class="col kids-intro">
             <h3>Our Life Time Treasures</h3>
                     <p>Having Children is a tremendous responsibility, being responsible for a little person life , and for my case I choose to have three of them, and luckily the dice we're rolled and I got two of them that is Type 1 Diabetic, while it is hard to manage their condition, it gave our family plenty of oppurtunities to bond with each other.</p>
         </div>
-        <div class="col kids-group-img">
-            <img class="kids-intro-img" id="kids-group-img" src="assets/triple-trouble2.png" alt="Picture of all my kids on a bench">
-        </div>
     </div>
-    <div class="row kids-conatiner">
+    <div class="row kids-sections">
         <div class="col theseus-section">
             <h4>Theseus Rosales</h4>
                 <img class="theseus-img" id="family-img" src="assets/theseus.png" alt="Picture Of my oldest Son on a birthday party">
@@ -55,7 +60,7 @@
                 <p>Amazing Role model, full of wonder and creativity. He possess many traits of a good leader, sometimes it scares me how fast he is maturing but I am Proud!</p>
             </div>
         </div>
-        <div class="col ivana-section">
+        <div class="col">
             <h4>Ivana Rosales</h4>
                 <img class="ivana-img" id="family-img" src="assets/ivana.png" alt="Picture of my first daughter on a walk to the fair grounds">
                 <div class="overlay-ivana">
@@ -63,7 +68,7 @@
                     </p>
                 </div>
         </div>
-        <div class="col nevaeh-section">
+        <div class="col">
             <h4>Nevaeh Rosales</h4>
                 <img class="nevaeh-img" id="family-img" src="assets/nevaeh.png" alt="Picture of my youngest with a big smile on her face">
                 <div class="overlay-nevaeh">
@@ -94,7 +99,7 @@
     </ul>
 </footer>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/89ebcadf7b.js" crossorigin="anonymous"></script>
 <script src="/js/app.js"></script>
 </body>

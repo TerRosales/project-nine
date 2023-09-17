@@ -2,11 +2,12 @@
 
 // All Family Picture Styles
 #family-img {
-    width: $img-max-width; 
-    height: $img-max-height;
+    width: $img-width; 
+    height: $img-height;
 }
 
 #kids-group-img {
+    width: 45rem; height: 30rem;
     max-width: $img-width;
     max-height: $img-height;
     min-width: $img-min-width;
@@ -14,12 +15,17 @@
 }
 
 .rosy-img {
-    width: 25rem !important; height: 25rem !important;
-    min-width: 22rem !important; min-height: 12rem !important;
+    margin-left: $margins-left;
+    min-width: 40rem; height: 30rem;
 }
 
-.planetary-img-container {
-    img {
-        width: 50rem; height: 55rem;
-    }
+
+.kids-intro-img {
+    margin-left: 15rem;
 }
+
+.kids-intro {
+    margin-bottom: 20rem;
+}
+
+

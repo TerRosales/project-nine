@@ -1,5 +1,42 @@
 @use '../partials/variables' as *;
 
 .main-container {
-
+    margin-top: 7%; // keeps them from being too high 
 }
+// About me
+.about-me-intro {
+    padding-left: $margins-left;
+}
+
+.planetary-img-container {
+    margin-bottom: $margins-bottom;
+}
+// About Rosy
+.about-rosy {
+    margin-bottom: $margins-bottom;
+}
+
+.rosy-container {
+    margin-right: 8%;
+}
+.rosy-img {
+    margin-left: $margins-left;
+}
+// Kids Intro
+
+.kids-intro {
+    margin-bottom: 40rem;
+}
+
+.kids-intro-img {
+    margin-left: 15rem;
+}
+
+// Kids Section
+.kids-sections {
+    margin-left: 10%;
+    margin-top: 5rem;
+}
+
+
+
