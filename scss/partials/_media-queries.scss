@@ -1,0 +1,38 @@
+@media (max-width: 1600px) {}
+@media (max-width: 1440px) {
+    .nav-list {
+        margin-left: 2rem;
+    }
+}
+@media (max-width: 1024px) {
+    .nav-list {
+        margin-left: 15rem;
+    }
+}
+@media (max-width: 768px) {
+    .nav-list {
+        margin-left: 10rem;
+    }
+    .planetary-img-container {
+        img {
+            width: 40rem; height: 40rem;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .nav-list {
+        margin-left: 2rem;
+    }
+    .planetary-img-container {
+        img {
+            width: 25rem; height: 40rem;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .planetary-img-container {
+        img {
+            width: 22rem; height: 35rem;
+        }
+    }
+}
