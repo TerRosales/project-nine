@@ -1,0 +1,25 @@
+@use '../partials/variables' as *;
+
+#footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: $color-lighter-black;
+    position: relative;
+    height: 10rem;
+    clear: both;
+    width: 100%;
+    ul {
+        list-style-type: none;
+    }
+}
+
+.footer-item {
+    margin-bottom: $margins-bottom;
+    color: $colors30;
+}
+
+.footer-item-email {
+    color: #3cba88;
+}

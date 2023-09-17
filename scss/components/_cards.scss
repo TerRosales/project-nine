@@ -1,0 +1,19 @@
+@use '../partials/variables' as *;
+
+// All Family Picture Styles
+#family-img {
+    width: $img-max-width; 
+    height: $img-max-height;
+}
+
+#kids-group-img {
+    max-width: $img-width;
+    max-height: $img-height;
+    min-width: $img-min-width;
+    min-height: $img-min-height;
+}
+
+.rosy-img {
+    width: 25rem !important; height: 25rem !important;
+    min-width: 22rem !important; min-height: 12rem !important;
+}

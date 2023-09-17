@@ -1,0 +1,121 @@
+#family-img {
+  width: 20rem;
+  height: 23rem;
+}
+
+#kids-group-img {
+  max-width: 30rem;
+  max-height: 20rem;
+  min-width: 20rem;
+  min-height: 10rem;
+}
+
+.rosy-img {
+  width: 25rem !important;
+  height: 25rem !important;
+  min-width: 22rem !important;
+  min-height: 12rem !important;
+}
+
+.navbar {
+  width: 100%;
+  margin-top: 1.7rem;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 3rem;
+}
+.navbar ul {
+  margin-right: 4rem;
+  list-style-type: none;
+}
+.navbar ul a {
+  color: #101010;
+  text-decoration: none;
+}
+.navbar ul li {
+  padding-top: 1rem;
+  text-align: center;
+  border-radius: 0.6rem;
+  width: 8rem;
+  height: 3rem;
+  margin-right: 5rem;
+  margin-left: 30rem;
+  display: inline-block;
+}
+
+.nav-list {
+  width: 100%;
+}
+
+#nav-btn {
+  position: relative;
+  border: none;
+  transition: all 0.5s ease-in-out;
+  overflow: hidden;
+}
+
+#nav-btn:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3cba88;
+  background-image: linear-gradient(315deg, #c0fbe3 20%, #13ffa1 60%);
+  transition: all 0.3s ease;
+}
+
+#nav-btn:hover {
+  background: transparent;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.2), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5), inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+  color: #fff;
+}
+
+#nav-btn:hover:after {
+  transform: scale(2) rotate(180deg);
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5), -4px -4px 6px 0 rgba(116, 125, 136, 0.2), inset -4px -4px 6px 0 rgba(255, 255, 255, 0.5), inset 4px 4px 6px 0 rgba(116, 125, 136, 0.3);
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: #181818;
+  position: relative;
+  height: 10rem;
+  clear: both;
+  width: 100%;
+}
+#footer ul {
+  list-style-type: none;
+}
+
+.footer-item {
+  margin-bottom: 1rem;
+  color: #3cba88;
+}
+
+.footer-item-email {
+  color: #3cba88;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  font-family: Josefin Sans, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  font-weight: 600;
+}/*# sourceMappingURL=main.css.map */
