@@ -26,24 +26,47 @@
     .nav-list {
         margin-left: 2rem;
     }
+    .about-me-intro {
+        padding-left: 2rem;
+    }
     .rosy-container {
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
     .rosy-img {
         padding-top: 4rem;
         margin-bottom: 4rem;
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
     .kids-intro-img {
-        margin-left: 2.5rem;
+        margin-left: 2rem;
     }
     .kids-intro {
         padding-top: 10rem;
-        padding-left: 3rem;
+        padding-left: 2.5rem;
     }
-    
+    .kids-sections {
+        margin-left: 2rem;
+    }
     
 }
 @media (max-width: 375px) {
+    .rosy-container {
+        margin-left: 0.5;
+    }
+    .rosy-img {
+        padding-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: 0.5;
+    }
+    .kids-intro-img {
+        margin-left: 0.5;
+    }
+    .kids-intro {
+        padding-top: 10rem;
+        padding-left: 2rem;
+    }
+    .kids-sections {
+        margin-left: 0.5;
+    }
 
 }
