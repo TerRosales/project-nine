@@ -1,0 +1,27 @@
+@use '../partials/variables' as *;
+
+@media (max-width: 1440px) {
+    .about-me {
+        margin-left: 1rem;
+    }
+    .planetary-img-container {
+        margin-bottom: $margins-bottom;
+    }
+    .kids-sections {
+        margin-left: 3rem;
+        margin-top: 5rem;
+        margin-bottom: $margins-bottom;
+    }
+    .theseus-section, .ivana-section {
+        margin-left: 3rem;
+    }
+    .kids-container {
+        margin-right: 1.5rem;
+    }
+
+    .kids-group-img {
+        width: 45rem;  height: 40rem;
+        min-width: $img-min-width;
+        min-height: $img-min-height;
+    }
+}

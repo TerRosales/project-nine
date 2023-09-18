@@ -1,21 +1,18 @@
 #family-img {
-  width: 20rem;
+  width: 15rem;
   height: 20rem;
 }
 
-#kids-group-img {
-  width: 45rem;
-  height: 30rem;
-  max-width: 20rem;
-  max-height: 20rem;
-  min-width: 10rem;
-  min-height: 10rem;
+.rosy-img img {
+  width: 30rem !important;
+  height: 35rem !important;
 }
 
-.rosy-img {
-  margin-left: 15%;
-  min-width: 40rem;
-  height: 30rem;
+.kids-group-img {
+  width: 55rem;
+  height: 45rem;
+  min-width: 10rem;
+  min-height: 10rem;
 }
 
 .navbar {
@@ -106,37 +103,49 @@
   margin-top: 7%;
 }
 
+.about-me {
+  margin-left: 5rem;
+}
+
 .about-me-intro {
-  padding-left: 15%;
+  padding-top: 15rem;
+  padding-right: 2rem;
 }
 
 .planetary-img-container {
   margin-bottom: 30rem;
+  min-width: 20rem;
+  max-width: 40rem;
 }
 
 .about-rosy {
   margin-bottom: 30rem;
 }
 
-.rosy-container {
-  margin-right: 8%;
+.rosy-img {
+  margin-left: 5rem;
 }
 
-.rosy-img {
-  margin-left: 15%;
+.theseus-section, .ivana-section {
+  margin-left: 3rem;
 }
 
 .kids-intro {
-  margin-bottom: 40rem;
+  margin-bottom: 30rem;
+}
+
+.kids-container {
+  margin-bottom: 30rem;
 }
 
 .kids-intro-img {
-  margin-left: 15rem;
+  margin-left: 5rem;
 }
 
 .kids-sections {
-  margin-left: 15%;
+  margin-left: 5rem;
   margin-top: 5rem;
+  margin-bottom: 30rem;
 }
 
 @media (max-width: 1440px) {
@@ -204,6 +213,50 @@
   }
   .kids-sections {
     margin-left: 0.5;
+  }
+}
+@media (max-width: 1024px) {
+  .about-me, .about-rosy, .kids-container, .kids-section {
+    margin-left: 1rem !important;
+  }
+  .kids-sections {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 30rem;
+  }
+  .theseus-section, .ivana-section {
+    margin-left: 2rem;
+  }
+  .kids-group-img {
+    width: 45rem;
+    height: 40rem;
+    min-width: 10rem;
+    min-height: 10rem;
+  }
+}
+@media (max-width: 1440px) {
+  .about-me {
+    margin-left: 1rem;
+  }
+  .planetary-img-container {
+    margin-bottom: 30rem;
+  }
+  .kids-sections {
+    margin-left: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 30rem;
+  }
+  .theseus-section, .ivana-section {
+    margin-left: 3rem;
+  }
+  .kids-container {
+    margin-right: 1.5rem;
+  }
+  .kids-group-img {
+    width: 45rem;
+    height: 40rem;
+    min-width: 10rem;
+    min-height: 10rem;
   }
 }
 *, *::before, *::after {

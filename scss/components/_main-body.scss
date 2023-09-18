@@ -4,39 +4,47 @@
     margin-top: 7%; // keeps them from being too high 
 }
 // About me
-.about-me-intro {
-    padding-left: $margins-left;
+.about-me {
+    margin-left: $margins-left;
 }
-
+.about-me-intro {
+    padding-top: 15rem;
+    padding-right: 2rem;
+}
 .planetary-img-container {
     margin-bottom: $margins-bottom;
+    min-width: 20rem; max-width: 40rem;
 }
 // About Rosy
 .about-rosy {
     margin-bottom: $margins-bottom;
-}
-
-.rosy-container {
-    margin-right: 8%;
+    // margin-right: $margins-right;
 }
 .rosy-img {
     margin-left: $margins-left;
 }
 // Kids Intro
-
-.kids-intro {
-    margin-bottom: 40rem;
+.theseus-section, .ivana-section {
+    margin-left: 3rem;
 }
-
+.kids-intro {
+    margin-bottom: $margins-bottom;
+}
+.kids-container {
+    margin-bottom: $margins-bottom;
+}
 .kids-intro-img {
-    margin-left: 15rem;
+    margin-left: $margins-left;
 }
 
 // Kids Section
+
 .kids-sections {
     margin-left: $margins-left;
     margin-top: 5rem;
+    margin-bottom: $margins-bottom;
 }
+
 
 
 

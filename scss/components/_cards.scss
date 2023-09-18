@@ -5,19 +5,18 @@
     width: $img-width; 
     height: $img-height;
 }
-
-#kids-group-img {
-    width: 45rem; height: 30rem;
-    max-width: $img-width;
-    max-height: $img-height;
+.rosy-img {
+    img {
+        width: 30rem !important; height: 35rem !important;
+    }
+}
+.kids-group-img {
+    width: 55rem;  height: 45rem;
     min-width: $img-min-width;
     min-height: $img-min-height;
 }
 
-.rosy-img {
-    margin-left: $margins-left;
-    min-width: 40rem; height: 30rem;
-}
+
 
 
 
