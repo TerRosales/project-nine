@@ -8,12 +8,12 @@
 .rosy-img {
     img {
         width: 30rem !important; height: 35rem !important;
+        min-width: 18rem; min-height: 20rem;
     }
 }
 .kids-group-img {
-    width: 55rem;  height: 45rem;
+    width: 45rem;  height: 30rem;
     min-width: $img-min-width;
-    min-height: $img-min-height;
 }
 
 

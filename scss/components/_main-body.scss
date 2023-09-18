@@ -13,7 +13,8 @@
 }
 .planetary-img-container {
     margin-bottom: $margins-bottom;
-    min-width: 20rem; max-width: 40rem;
+    min-width: 20rem; 
+    max-width: 40rem;
 }
 // About Rosy
 .about-rosy {
@@ -24,7 +25,7 @@
     margin-left: $margins-left;
 }
 // Kids Intro
-.theseus-section, .ivana-section {
+.ivana-section {
     margin-left: 3rem;
 }
 .kids-intro {
@@ -36,6 +37,11 @@
 .kids-intro-img {
     margin-left: $margins-left;
 }
+.kids-group-img {
+    width: 45rem;
+    min-width: $img-min-width;
+    min-height: $img-min-height;
+}
 
 // Kids Section
 
@@ -44,6 +50,7 @@
     margin-top: 5rem;
     margin-bottom: $margins-bottom;
 }
+
 
 
 
