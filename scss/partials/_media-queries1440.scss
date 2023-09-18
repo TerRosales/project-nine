@@ -1,16 +1,52 @@
 @use '../partials/variables' as *;
 
 @media (max-width: 1440px) {
+    // Margins
     .about-me {
         margin-left: 3rem;
-    }
-    .kids-sections {
-        margin-left: 5rem;
     }
     .ivana-section {
         margin-left: 3rem;
     }
     .kids-container {
         margin-right: 1.5rem;
+    }
+    // Kids Section
+
+    .kids-sections {
+        margin-left: 0rem;
+        margin-top: 5rem;
+        margin-bottom: $margins-bottom;
+    }
+
+
+    .theseus-section, .ivana-section{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        h4, p {
+            padding-right: 7rem;
+        }
+    }
+    .theseus-section {
+        padding-left: 7rem !important;
+        margin-top: 1.5rem;
+    }
+    .ivana-section{
+        padding-left: 1rem;
+    }
+    .ivana-img {
+        transform: translateX(-0,5);
+    }
+    .nevaeh-section{
+        margin-top: 1rem;
+        padding-left: 3rem;
+        p {
+            margin-right: 0.5rem;
+        }
+    }
+    .nevaeh-img{
+        margin-right: 8rem;
     }
 }

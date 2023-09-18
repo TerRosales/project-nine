@@ -1,16 +1,45 @@
 @use '../partials/variables' as *;
 
 @media (max-width: 1024px) {
+    // Positioning for 1024
     .about-rosy, .about-me, .kids-container {
         margin-right: 3rem;
     }
+    .kids-intro {
+        padding: 6rem;
+    }
     .kids-sections {
-        margin-left: 10rem;
-        margin-top: 5rem;
-        margin-bottom: $margins-bottom;
-        transform: translateX(-2rem);
+        
+    }
+    .theseus-section {
+        h4, p {
+            margin-right: 2rem;
+        }
     }
     .ivana-section {
-        margin-left: 2rem;
+        margin-top: 1.5rem;
+        h4, p {
+            margin-right: 2rem;
+        }
+    }
+    .nevaeh-section {
+        img {
+            margin-left: 18rem;
+        }
+        h4{
+            margin-left: 2rem;
+        }
+    }
+    .overlay-nevaeh {
+        margin-right: 16rem;
+        margin-left: 17.5rem;
+    }
+    // Img sizing for 1024
+    #rosy-img {
+        width: 25rem; height: 32rem;
+    }
+
+    .kids-group-img {
+        width: 50rem;  height: 30rem;
     }
 }
