@@ -13,12 +13,11 @@
     .rosy-img{
         margin-left: 8.5rem;
     }
+    #rosy-img {
+        margin-left: 5rem;
+    }
     .rosy-container {
         margin-left: 8.5rem;
-    }
-    #rosy-img {
-            width: 28rem !important;
-            height: 20rem;
     }
     // Kids Section 
     .kids-container{
@@ -52,6 +51,9 @@
         
     }
     .overlay-nevaeh {
-        padding-left: 13rem !important;
+        padding-left: 13rem;
+    }
+    .nevaeh-img {
+        transform: translateX(-8rem);
     }
 }

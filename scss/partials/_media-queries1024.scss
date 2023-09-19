@@ -16,12 +16,9 @@
         }
         p {
             margin-top: 2rem;
-            margin-right: 2rem;
         }
-        margin-bottom: 5rem;
     }
     .ivana-section {
-        margin-bottom: 5rem;
         margin-top: 1.5rem;
         h4 {
             margin-bottom: 2rem;
@@ -29,7 +26,6 @@
         }
         p {
             margin-top: 2rem;
-            margin-right: 3rem;
         }
     }
     .nevaeh-section {
@@ -44,11 +40,12 @@
     .overlay-nevaeh {
         padding-right: 2rem;
         padding-left: 8rem !important;
+        p {
+            padding-left: 12rem;
+            padding-right: 19rem;
+        }
     }
     // Img sizing for 1024
-    #rosy-img {
-        width: 25rem; height: 32rem;
-    }
     .kids-intro {
         padding: 6rem;
     }
@@ -57,6 +54,6 @@
         width: 50rem;  height: 30rem;
     }
     .nevaeh-img {
-        margin-left: 12rem !important;
+        margin-left: 20rem;
     }
 }

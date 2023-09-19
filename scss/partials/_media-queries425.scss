@@ -1,1 +1,72 @@
 @use '../partials/variables' as *;
+
+@media (max-width: 425px) {
+    // Grid Setup
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+        grid-template-areas: 
+        "myself"
+        "rosy"
+        "kidsIntro"
+        "kidsMain"
+        ;
+    }
+
+    // Area Naming
+
+    .about-me {
+        grid-area: myself;
+    }
+    .about-rosy {
+        grid-area: rosy;
+    }
+    .kids-container {
+        grid-area: kidsIntro;
+    }
+    .kidsGroup {
+        grid-area: kidsMain;
+    }
+
+    // Margins
+
+    .about-me {
+        margin-left: 0rem !important;
+        margin-right: 48% !important;
+        line-height: 2!important;
+    }
+    .planetary-img-container {
+        margin-left: 0rem !important;
+        padding-right: 17rem !important;
+        transform: translate(-5rem)!important;
+    }
+    .about-rosy {
+        margin-left: 0rem !important;
+        transform: translate(-5rem)!important;
+    }
+    .rosy-img {
+        margin-left: 2rem !important;
+        margin-right: 20rem !important;
+        img {
+            height: 20rem !important;
+        }
+    }
+    .rosy-container {
+        margin-right: 10rem !important;
+        margin-left: 7rem !important;
+        p {
+            padding-right: 10rem !important;
+        }
+    }
+    .kids-group-img {
+        width: 25rem !important;
+        height: 25rem !important;
+    }
+    .kids-container {
+        grid-area: kidsIntro;
+    }
+    .kidsGroup {
+        grid-area: kidsMain;
+    }
+}

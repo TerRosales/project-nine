@@ -4,8 +4,8 @@
 }
 
 #rosy-img {
-  width: 30rem;
-  height: 35rem;
+  width: 20rem;
+  height: 30rem;
   min-width: 10rem;
   max-width: 40rem;
 }
@@ -106,12 +106,15 @@
 
 .about-me {
   margin-left: 5rem;
-  margin-bottom: 30rem;
+  margin-bottom: 15rem;
 }
 
 .about-me-intro {
   padding-top: 15rem;
   padding-right: 2rem;
+}
+.about-me-intro h1 {
+  margin-bottom: 2rem;
 }
 
 .planetary-img-container {
@@ -131,14 +134,17 @@
 .rosy-container {
   margin-right: 5rem;
 }
+.rosy-container h3 {
+  margin-bottom: 2rem;
+}
 
 .kids-container {
-  margin-bottom: 25rem;
+  margin-bottom: 15rem;
   margin-right: 5rem;
 }
 
-.kids-intro {
-  margin-bottom: 10rem;
+.kids-intro h3 {
+  margin-bottom: 2rem;
 }
 
 .kids-intro-img {
@@ -152,7 +158,7 @@
 }
 
 .kids-sections {
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
 }
 
 .theseus-section, .ivana-section, .nevaeh-section {
@@ -170,9 +176,29 @@
   padding-left: 7rem;
   margin-top: 1.5rem;
 }
+.theseus-section h4 {
+  margin-bottom: 2rem;
+}
+.theseus-section img {
+  margin-bottom: 2rem;
+}
+
+.ivana-section h4 {
+  margin-bottom: 2rem;
+}
+.ivana-section img {
+  margin-bottom: 2rem;
+}
 
 .nevaeh-section h4, .nevaeh-section p {
   padding-right: 7.6rem;
+}
+.nevaeh-section h4 {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.nevaeh-section img {
+  margin-bottom: 2rem;
 }
 
 .nevaeh-img {
@@ -198,46 +224,63 @@
   .nav-list {
     margin-left: 2rem;
   }
-  .about-me-intro {
-    padding-left: 2rem;
-  }
-  .rosy-container {
-    margin-left: 2rem;
-  }
-  .rosy-img {
-    padding-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: 2rem;
-  }
-  .kids-intro-img {
-    margin-left: 2rem;
-  }
-  .kids-intro {
-    padding-top: 10rem;
-    padding-left: 2.5rem;
-  }
-  .kids-sections {
-    margin-left: 2rem;
-  }
 }
-@media (max-width: 375px) {
-  .rosy-container {
-    margin-left: 0.5;
+@media (max-width: 425px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-areas: "myself" "rosy" "kidsIntro" "kidsMain";
+  }
+  .about-me {
+    grid-area: myself;
+  }
+  .about-rosy {
+    grid-area: rosy;
+  }
+  .kids-container {
+    grid-area: kidsIntro;
+  }
+  .kidsGroup {
+    grid-area: kidsMain;
+  }
+  .about-me {
+    margin-left: 0rem !important;
+    margin-right: 48% !important;
+    line-height: 2 !important;
+  }
+  .planetary-img-container {
+    margin-left: 0rem !important;
+    padding-right: 17rem !important;
+    transform: translate(-5rem) !important;
+  }
+  .about-rosy {
+    margin-left: 0rem !important;
+    transform: translate(-5rem) !important;
   }
   .rosy-img {
-    padding-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: 0.5;
+    margin-left: 2rem !important;
+    margin-right: 20rem !important;
   }
-  .kids-intro-img {
-    margin-left: 0.5;
+  .rosy-img img {
+    height: 20rem !important;
   }
-  .kids-intro {
-    padding-top: 10rem;
-    padding-left: 2rem;
+  .rosy-container {
+    margin-right: 10rem !important;
+    margin-left: 7rem !important;
   }
-  .kids-sections {
-    margin-left: 0.5;
+  .rosy-container p {
+    padding-right: 10rem !important;
+  }
+  .kids-group-img {
+    width: 25rem !important;
+    height: 25rem !important;
+  }
+  .kids-container {
+    grid-area: kidsIntro;
+  }
+  .kidsGroup {
+    grid-area: kidsMain;
   }
 }
 @media (max-width: 768px) {
@@ -253,12 +296,11 @@
   .rosy-img {
     margin-left: 8.5rem;
   }
+  #rosy-img {
+    margin-left: 5rem;
+  }
   .rosy-container {
     margin-left: 8.5rem;
-  }
-  #rosy-img {
-    width: 28rem !important;
-    height: 20rem;
   }
   .kids-container {
     margin-left: -6.5rem;
@@ -287,7 +329,10 @@
     margin-left: 11.2rem;
   }
   .overlay-nevaeh {
-    padding-left: 13rem !important;
+    padding-left: 13rem;
+  }
+  .nevaeh-img {
+    transform: translateX(-8rem);
   }
 }
 @media (max-width: 1024px) {
@@ -297,19 +342,14 @@
   .rosy-container {
     margin-top: 8rem;
   }
-  .theseus-section {
-    margin-bottom: 5rem;
-  }
   .theseus-section h4 {
     margin-right: 2rem;
     margin-bottom: 2rem;
   }
   .theseus-section p {
     margin-top: 2rem;
-    margin-right: 2rem;
   }
   .ivana-section {
-    margin-bottom: 5rem;
     margin-top: 1.5rem;
   }
   .ivana-section h4 {
@@ -318,7 +358,6 @@
   }
   .ivana-section p {
     margin-top: 2rem;
-    margin-right: 3rem;
   }
   .nevaeh-section h4 {
     margin-bottom: 2rem;
@@ -331,9 +370,9 @@
     padding-right: 2rem;
     padding-left: 8rem !important;
   }
-  #rosy-img {
-    width: 25rem;
-    height: 32rem;
+  .overlay-nevaeh p {
+    padding-left: 12rem;
+    padding-right: 19rem;
   }
   .kids-intro {
     padding: 6rem;
@@ -343,7 +382,7 @@
     height: 30rem;
   }
   .nevaeh-img {
-    margin-left: 12rem !important;
+    margin-left: 20rem;
   }
 }
 @media (max-width: 1440px) {
@@ -402,6 +441,8 @@ html, body {
   min-height: 100vh;
   font-family: Josefin Sans, Verdana, Geneva, Tahoma, sans-serif;
   overflow-x: hidden;
+  line-height: 1.7;
+  text-align: start;
 }
 
 .navbar {
