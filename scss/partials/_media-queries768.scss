@@ -1,1 +1,57 @@
 @use '../partials/variables' as *;
+
+@media (max-width: 768px) {
+    .about-me {
+        margin-bottom: 8rem;
+    }
+    .planetary-img-container {
+        transform: translateY(-230px);
+        padding-left: 10rem;
+        min-width: 40rem; 
+        max-width: 50rem;
+    }
+    .rosy-img{
+        margin-left: 8.5rem;
+    }
+    .rosy-container {
+        margin-left: 8.5rem;
+    }
+    #rosy-img {
+            width: 28rem !important;
+            height: 20rem;
+    }
+    // Kids Section 
+    .kids-container{
+        margin-left: -6.5rem;
+        margin-bottom: 7rem;
+    }
+    .kids-group-img {
+        width: 35rem; height: 20rem;
+    }
+    .kids-intro {
+        margin-left: 8.5rem;
+    }
+    .theseus-section {
+        h4, p {
+            padding-left: 4rem;
+        }
+        img {
+            margin-left: 8.5rem;
+        }
+    }
+    .ivana-section {
+        h4 {
+            padding-left: 4rem;
+        }
+        p {
+            padding-left: 7rem;
+        }
+        img {
+            margin-left: 11.2rem;
+        }
+        
+    }
+    .overlay-nevaeh {
+        padding-left: 13rem !important;
+    }
+}

@@ -5,41 +5,58 @@
     .about-rosy, .about-me, .kids-container {
         margin-right: 3rem;
     }
-    .kids-intro {
-        padding: 6rem;
+    .rosy-container {
+        margin-top: 8rem;
     }
-    .kids-sections {
-        
-    }
+    
     .theseus-section {
-        h4, p {
+        h4{
+            margin-right: 2rem;
+            margin-bottom: 2rem;
+        }
+        p {
+            margin-top: 2rem;
             margin-right: 2rem;
         }
+        margin-bottom: 5rem;
     }
     .ivana-section {
+        margin-bottom: 5rem;
         margin-top: 1.5rem;
-        h4, p {
-            margin-right: 2rem;
+        h4 {
+            margin-bottom: 2rem;
+            margin-right: 1.5rem;
+        }
+        p {
+            margin-top: 2rem;
+            margin-right: 3rem;
         }
     }
     .nevaeh-section {
-        img {
-            margin-left: 18rem;
+        h4 {
+            margin-bottom: 2rem;
+            margin-right: -5rem;
         }
-        h4{
-            margin-left: 2rem;
+        p {
+            margin-top: 2rem;
         }
     }
     .overlay-nevaeh {
-        margin-right: 16rem;
-        margin-left: 17.5rem;
+        padding-right: 2rem;
+        padding-left: 8rem !important;
     }
     // Img sizing for 1024
     #rosy-img {
         width: 25rem; height: 32rem;
     }
+    .kids-intro {
+        padding: 6rem;
+    }
 
     .kids-group-img {
         width: 50rem;  height: 30rem;
+    }
+    .nevaeh-img {
+        margin-left: 12rem !important;
     }
 }

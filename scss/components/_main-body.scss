@@ -6,6 +6,7 @@
 // About me
 .about-me {
     margin-left: $margins-left;
+    margin-bottom: $margins-bottom;
 }
 .about-me-intro {
     padding-top: 15rem;
@@ -13,8 +14,7 @@
 }
 .planetary-img-container {
     padding-left: 5rem;
-    margin-bottom: $margins-bottom;
-    min-width: 20rem; 
+    min-width: 25rem; 
     max-width: 50rem;
 }
 // About Rosy
@@ -30,7 +30,7 @@
 }
 // Kids Intro
 .kids-container {
-    margin-bottom: 10rem;
+    margin-bottom: 25rem;
     margin-right: 5rem;
 }
 .kids-intro {
@@ -49,8 +49,7 @@
 // Kids Section
 
 .kids-sections {
-    margin-left: 0rem;
-    margin-bottom: 5rem;
+    margin-bottom: 20rem;
 }
 
 
@@ -65,7 +64,7 @@
     }
 }
 .theseus-section {
-    padding-left: 7rem !important;
+    padding-left: 7rem;
     margin-top: 1.5rem;
 }
 

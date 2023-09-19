@@ -10,6 +10,7 @@
     .nav-list {
         margin-left: 15rem;
     }
+
 }
 @media (max-width: 768px) {
     .nav-list {
@@ -39,6 +40,10 @@
         padding-top: 10rem;
         padding-left: 2.5rem;
     }
+    .kids-sections {
+        margin-left: 2rem;
+    }
+    
 }
 @media (max-width: 375px) {
     .rosy-container {
@@ -56,4 +61,8 @@
         padding-top: 10rem;
         padding-left: 2rem;
     }
+    .kids-sections {
+        margin-left: 0.5;
+    }
+
 }
