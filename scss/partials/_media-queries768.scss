@@ -51,7 +51,11 @@
         
     }
     .overlay-nevaeh {
-        padding-left: 13rem;
+        padding-right: 1rem;
+        p {
+            padding-left: 1rem!important;
+            padding-right: 5rem!important;
+        }
     }
     .nevaeh-img {
         transform: translateX(-8rem);

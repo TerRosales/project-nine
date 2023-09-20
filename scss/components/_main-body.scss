@@ -6,7 +6,7 @@
 // About me
 .about-me {
     margin-left: $margins-left;
-    margin-bottom: 15rem;
+    margin-bottom: $margins-bottom;
 }
 .about-me-intro {
     padding-top: 15rem;
@@ -36,7 +36,7 @@
 }
 // Kids Intro
 .kids-container {
-    margin-bottom: 15rem;
+    margin-bottom: $margins-bottom;
     margin-right: 5rem;
 }
 .kids-intro {
@@ -57,7 +57,7 @@
 // Kids Section
 
 .kids-sections {
-    margin-bottom: 15rem;
+    margin-bottom: $margins-bottom;
 }
 
 
