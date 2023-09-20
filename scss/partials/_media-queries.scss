@@ -1,6 +1,10 @@
 @use '../partials/variables' as *;
 
-@media (max-width: 1600px) {}
+@media (max-width: 2500px) {
+    #light-dark {
+        transform: translateX(250rem);
+    }
+}
 @media (max-width: 1440px) {
     .nav-list {
         margin-left: 2rem;
