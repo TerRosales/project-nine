@@ -100,23 +100,6 @@
   color: #3cba88;
 }
 
-#box {
-  opacity: 0;
-  filter: blur(5px);
-  transform: translateX(400%) !important;
-  transition: all 1.2s ease-in-out;
-}
-
-#box:nth-of-type(even) {
-  transform: translateX(-400%);
-}
-
-.show {
-  opacity: 1;
-  filter: blur(0);
-  transform: translateX(0) !important;
-}
-
 .main-container {
   margin-top: 7%;
 }
@@ -505,7 +488,7 @@ i {
 .dark-mode {
   background-color: rgba(0, 0, 0, 0.9);
   color: #f0f0f0;
-  transition: all 0.8s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .dark-mode span {
   color: #13ffa1;
@@ -518,7 +501,7 @@ i {
 }
 
 #light-dark {
-  transform: translateX(28rem);
+  transform: translateX(20rem);
 }
 
 .toggle-switch {

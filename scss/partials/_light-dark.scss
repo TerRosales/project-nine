@@ -8,7 +8,7 @@ i {
 .dark-mode {
     background-color: rgba(0, 0, 0, 0.9);
     color: #f0f0f0;
-    transition: all 0.8s ease-in-out;
+    transition: all 0.3s ease-in-out;
     span {
         color: $colors30-dim;
     }
@@ -21,7 +21,7 @@ i {
 }
 // aligning the light and dark mode slider
 #light-dark {
-    transform: translateX(28rem);
+    transform: translateX(20rem);
 }
 // Social Links
 // #soc-links {
