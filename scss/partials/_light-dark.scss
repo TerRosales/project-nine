@@ -16,6 +16,9 @@ i {
         color: $colors30-dim;
     }
     a {
+        i {
+            color: $colors30-dim!important;
+        }
         color: $colors30-dim
     }
 }
@@ -62,7 +65,7 @@ i {
     width: 1.40rem;
     left: 0.25rem;
     bottom: 0.25rem;
-    background-color: $colors30-dim;
+    background-color: $colors30;
     transition: 0.4s;
     border-radius: 50%;
 }
