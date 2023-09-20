@@ -2,6 +2,9 @@
 
 @media (max-width: 1024px) {
     // Positioning for 1024
+    #light-dark {
+        margin-left: 0rem!important;
+    }
     .about-rosy, .about-me, .kids-container {
         margin-right: 3rem;
     }

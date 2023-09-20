@@ -26,6 +26,13 @@
     padding-right: 2rem;
     h1 {
         margin-bottom: 2rem;
+        a {
+            i {
+                color: $colors30-dim;
+            }
+            text-decoration: none;
+            margin-left: 0.5rem;
+        }
     }
 }
 .planetary-img-container {

@@ -133,6 +133,13 @@
 .about-me-intro h1 {
   margin-bottom: 2rem;
 }
+.about-me-intro h1 a {
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+.about-me-intro h1 a i {
+  color: #13ffa1;
+}
 
 .planetary-img-container {
   padding-left: 5rem;
@@ -222,11 +229,6 @@
   margin-right: 8rem;
 }
 
-@media (max-width: 2500px) {
-  #light-dark {
-    transform: translateX(250rem);
-  }
-}
 @media (max-width: 1440px) {
   .nav-list {
     margin-left: 2rem;
@@ -394,6 +396,9 @@
   }
 }
 @media (max-width: 1024px) {
+  #light-dark {
+    margin-left: 0rem !important;
+  }
   .about-rosy, .about-me, .kids-container {
     margin-right: 3rem;
   }
@@ -446,6 +451,10 @@
   }
 }
 @media (max-width: 1440px) {
+  #light-dark {
+    transform: translateX(0rem) !important;
+    margin-left: 17rem;
+  }
   .about-me {
     margin-left: 3rem;
   }
@@ -504,6 +513,13 @@ i {
 .dark-mode i {
   color: #13ffa1;
 }
+.dark-mode a {
+  color: #13ffa1;
+}
+
+#light-dark {
+  transform: translateX(28rem);
+}
 
 .toggle-switch {
   position: relative;
@@ -512,10 +528,6 @@ i {
   height: 1.7rem;
   margin-bottom: 0.5rem;
   margin-inline: auto;
-}
-
-#light-dark {
-  transform: translateX(17rem);
 }
 
 .toggle-switch input {

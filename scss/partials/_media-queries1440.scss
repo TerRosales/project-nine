@@ -2,6 +2,10 @@
 
 @media (max-width: 1440px) {
     // Margins
+    #light-dark {
+        transform: translateX(0rem)!important;
+        margin-left: 17rem;
+    }
     .about-me {
         margin-left: 3rem;
     }
