@@ -60,16 +60,45 @@
         }
     }
     .kids-group-img {
-        width: 25rem !important;
-        height: 25rem !important;
-    }
-    .kids-container {
-        
+        margin-right: 6rem;
+        margin-left: 2rem;
+        width: 22rem !important;
+        height: 19rem !important;
     }
     .kids-intro {
-        
+        margin-left: 5rem!important;
+        padding-left: 1rem!important;
+        h3 {
+            margin-left: 1.5rem;
+        }
+        p {
+            margin-left: 1.5rem;
+            padding-right: 22rem;
+        }
     }
-    .kidsGroup {
-        grid-area: kidsMain;
+    .kids-sections {
+        transform: translate(-11rem);
+    }
+    .overlay-theseus, .overlay-ivana {
+        padding-left: 5rem;
+        padding-right: 7rem;
+    }
+    .theseus-section {
+        margin-right: 5rem;
+    }
+    .ivana-section {
+        margin-right: 5rem;
+    }
+    .nevaeh-section {
+        margin-right: 5rem;
+        img {
+            padding-left: 1rem;
+        }
+    }
+    .overlay-nevaeh {
+        padding-left: 8rem;
+        padding-right: 8rem;
+        margin-left: 3rem;
+        margin-right: 8rem;
     }
 }
