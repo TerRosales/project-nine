@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     padding-top: 1.5rem;
-    background: $color-lighter-black;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 2%, rgba(0, 0, 0, 0.95) 12%, rgba(0, 0, 0, 0.91) 30%, rgba(1, 13, 8, 1) 53%, rgba(3, 30, 19, 1) 75%, rgba(5, 40, 26, 1) 87%);
     position: relative;
     height: 10rem;
     clear: both;
@@ -20,5 +20,5 @@
 }
 
 .footer-item-email {
-    color: #3cba88;
+    color: $colors30-dim;
 }
