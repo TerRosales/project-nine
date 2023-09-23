@@ -576,4 +576,22 @@ html, body {
 
 .navbar {
   font-weight: 600;
+}
+
+.item:not(:first-child) {
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.left {
+  transform: translateX(-20%);
+}
+
+.right {
+  transform: translateX(20%);
+}
+
+.slide-in {
+  opacity: 1 !important;
+  transform: translateX(0);
 }/*# sourceMappingURL=main.css.map */
