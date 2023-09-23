@@ -1,5 +1,9 @@
 @use '../partials/variables' as *;
 
+.navbar {
+    z-index: 1;
+}
+
 .main-container {
     margin-top: 7%; // keeps them from being too high 
 }
